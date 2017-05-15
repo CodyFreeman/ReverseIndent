@@ -1,13 +1,13 @@
-#ReverseIndent
+# ReverseIndent
 PHP application to reverse the indentation of a file.
 
-##Prerequisite
+## Prerequisite
 `PHP 7.0+`
 
-##Usage
+## Usage
 You can use Reverse Indent from the command line or as part of a website.
 
-###CLI usage
+### CLI usage
 
 To reverse the indentation of a file through the command line interface:
 
@@ -15,7 +15,7 @@ To reverse the indentation of a file through the command line interface:
 
 Obviously this might break your code. I take no responsibility for your stupidity if you fuck up.
 
-###Web usage
+### Web usage
 If you wish to display the results on a webpage you might want to show the output within `<pre>` tags.
 `<pre>` tags will preserve the newline characters, so you don't have to process the output more than necessary.
 
@@ -30,5 +30,5 @@ $revIn = new \Freeman\ReverseIndent\ReverseIndent\ReverseIndent();
 $output = $revIn->run($input);
 ```
 
-##Version History
+## Version History
 v1.0.0: Github release
